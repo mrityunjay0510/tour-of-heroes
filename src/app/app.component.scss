@@ -1,0 +1,25 @@
+@import '../scss/vars';
+
+h1{
+    color: #444;
+    font-family: $hero-all-font-family;
+    font-size: 250%;
+}
+
+h2,h3{
+    color: #444;
+    font-family: $hero-all-font-family;
+    font-weight: lighter;
+}
+
+body {
+    margin: 2em;
+  }
+
+  body, input[text], button {
+    color:$hero-input-button-col;
+    font-family:$hero--input-but-font-family;
+  }
+  *{
+    font-family: $hero-all-font-family;
+  }
